@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 body {
@@ -20,7 +20,8 @@ a {
     grid-template-rows: 40px 40px 230px 120px 120px auto;
     max-width: 780px;
     margin: 20px auto;
-    gap: 20px
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .title,
@@ -90,7 +91,7 @@ ol {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 100;
     margin-bottom: 20px;
 }
 
@@ -99,8 +100,6 @@ h2 {
 }
 
 @media(max-width: 830px) {
-
-
     #body {
         width: 95%;
         grid-template-rows: 5vw 5vw 28vw 14vw 14vw auto;
@@ -126,7 +125,7 @@ h2 {
     }
 
     h2 {
-        font-size: 3.3vw;
+        font-size: 3.1vw;
         margin-bottom: 2vw;
     }
 
